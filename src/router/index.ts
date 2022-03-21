@@ -1,5 +1,4 @@
 import { createRouter, createWebHistory } from 'vue-router'
-import HomeView from '../views/HomeView.vue'
 import { PATH,_BASIC } from './path'
 
 const router = createRouter({
@@ -8,7 +7,7 @@ const router = createRouter({
     {
       path: '/',
       name: 'home',
-      component: HomeView
+      component: import("../views/basic/BasicHome.vue"),
     },
     {
       path: '/about',
@@ -38,6 +37,19 @@ const router = createRouter({
         {
           path: _BASIC.ATTRIBUTE,
           component: () => import("../views/basic/AttributeBind.vue")
+        },
+        {
+          path: _BASIC.SWITCH,
+          component: () => import("../views/basic/SwitchLoop.vue")
+        },
+        {
+          path: _BASIC.BIND,
+          component: () => import("../views/basic/TabelBind.vue")
+        }
+        ,
+        {
+          path: _BASIC.COMPONENT,
+          component: () => import("../views/basic/component/index.vue")
         }
       ]
     }
