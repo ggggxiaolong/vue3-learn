@@ -10,6 +10,7 @@ export class PATH {
   static PRACTICAL_MARKDOWN: string = "/practical/markdown";
   static PRACTICAL_FETCH: string = "/practical/fetch";
   static PRACTICAL_SORT_GRID: string = "/practical/grid";
+  static PRACTICAL_TREE: string = "/practical/tree";
 }
 
 export class _BASIC {
@@ -25,4 +26,5 @@ export class _PRACTICal {
   static MARKDOWN: string = "markdown";
   static FETCH: string = "fetch";
   static SORT_GRID: string = "grid";
+  static TREE: string = "tree"
 }

@@ -72,6 +72,10 @@ const router = createRouter({
           path: _PRACTICal.SORT_GRID,
           component: () => import("../views/practical/sortGrid/index.vue"),
         },
+        {
+          path: _PRACTICal.TREE,
+          component: () => import("../views/practical/tree/index.vue")
+        }
       ],
     },
   ],
