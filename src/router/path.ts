@@ -6,13 +6,23 @@ export class PATH {
   static BASIC_SWITCH: string = "/basic/switch";
   static BASIC_BIND: string = "/basic/bind";
   static BASIC_COMPONENT: string = "/basic/component";
+  static PRACTICAL: string = "/practical";
+  static PRACTICAL_MARKDOWN: string = "/practical/markdown";
+  static PRACTICAL_FETCH: string = "/practical/fetch";
+  static PRACTICAL_SORT_GRID: string = "/practical/grid";
 }
 
 export class _BASIC {
   static HELLO: string = "hello";
   static INPUT: string = "input";
   static ATTRIBUTE: string = "attribute";
-  static SWITCH: string = "switch"
-  static BIND: string = "bind"
-  static COMPONENT: string = "component"
+  static SWITCH: string = "switch";
+  static BIND: string = "bind";
+  static COMPONENT: string = "component";
+}
+
+export class _PRACTICal {
+  static MARKDOWN: string = "markdown";
+  static FETCH: string = "fetch";
+  static SORT_GRID: string = "grid";
 }

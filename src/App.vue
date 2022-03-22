@@ -13,7 +13,7 @@ import {PATH} from "./router/path"
 
       <nav>
         <RouterLink :to="PATH.BASIC">基础</RouterLink>
-        <RouterLink to="/about">About</RouterLink>
+        <RouterLink :to="PATH.PRACTICAL">实战</RouterLink>
       </nav>
     </div>
   </header>
