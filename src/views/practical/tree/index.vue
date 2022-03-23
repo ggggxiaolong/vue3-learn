@@ -36,11 +36,11 @@ const treeData: Ref<Item> = ref({
 </template>
 
 <style scoped>
-.item {
+.item :deep(.item) {
   cursor: pointer;
   line-height: 1.5;
 }
-.bold {
+.item :deep(.bold) {
   font-weight: bold;
 }
 </style>

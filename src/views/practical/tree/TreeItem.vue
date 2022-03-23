@@ -37,7 +37,7 @@ function addChild() {
     </div>
     <ul v-show="isOpen" v-if="isFolder">
       <TreeItem
-        :class="item"
+        class="item"
         v-for="item in model.children"
         :model="item"
       ></TreeItem>
@@ -45,12 +45,3 @@ function addChild() {
     </ul>
   </li>
 </template>
-<style>
-.item {
-  cursor: pointer;
-  line-height: 1.5;
-}
-.bold {
-  font-weight: bold;
-}
-</style>
