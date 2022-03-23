@@ -75,6 +75,10 @@ const router = createRouter({
         {
           path: _PRACTICal.TREE,
           component: () => import("../views/practical/tree/index.vue")
+        },
+        {
+          path: _PRACTICal.SVG,
+          component: () => import("../views/practical/svg/index.vue")
         }
       ],
     },
