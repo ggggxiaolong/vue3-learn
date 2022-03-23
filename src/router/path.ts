@@ -12,6 +12,8 @@ export class PATH {
   static PRACTICAL_SORT_GRID: string = "/practical/grid";
   static PRACTICAL_TREE: string = "/practical/tree";
   static PRACTICAL_SVG: string = "/practical/svg";
+  static PRACTICAL_MODAL: string = "/practical/modal";
+  static PRACTICAL_TRANSITION: string = "/practical/transition";
 }
 
 export class _BASIC {
@@ -29,4 +31,6 @@ export class _PRACTICal {
   static SORT_GRID: string = "grid";
   static TREE: string = "tree";
   static SVG: string = "svg";
+  static Modal: string = "modal";
+  static TRANSITION: string = "transition";
 }

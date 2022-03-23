@@ -79,6 +79,14 @@ const router = createRouter({
         {
           path: _PRACTICal.SVG,
           component: () => import("../views/practical/svg/index.vue")
+        },
+        {
+          path: _PRACTICal.Modal,
+          component: () => import("../views/practical/modalDialog/index.vue")
+        },
+        {
+          path: _PRACTICal.TRANSITION,
+          component: () => import("../views/practical/TransitionList.vue")
         }
       ],
     },
