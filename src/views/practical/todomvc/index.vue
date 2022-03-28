@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import { ref, computed, watchEffect, type Ref } from "vue";
+import { ref, computed, watchEffect, type Ref, type VNode } from "vue";
 import { Filter, filterTodo, type Item } from "./model";
 const STORAGE_KEY = "vue-todomvc";
 
@@ -99,7 +99,7 @@ function toogleCompleted(todo: Item){
             class="edit"
             type="text"
             v-model="seletedTodo!!.title"
-            @vnode-mounted="({el}) => el.focus()"
+            @vnode-mounted="({el}: VNode) => el?.focus()"
             @blur="doneEdit(todo)"
             @keyup.enter="doneEdit(todo)"
             @keyup.escape="cancelEdit()"
