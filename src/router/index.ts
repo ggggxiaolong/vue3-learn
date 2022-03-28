@@ -87,6 +87,10 @@ const router = createRouter({
         {
           path: _PRACTICal.TRANSITION,
           component: () => import("../views/practical/TransitionList.vue")
+        },
+        {
+          path: _PRACTICal.TODO,
+          component: () => import("../views/practical/todomvc/index.vue")
         }
       ],
     },

@@ -14,6 +14,7 @@ export class PATH {
   static PRACTICAL_SVG: string = "/practical/svg";
   static PRACTICAL_MODAL: string = "/practical/modal";
   static PRACTICAL_TRANSITION: string = "/practical/transition";
+  static PRACTICAL_TODO: string = "/practical/todo";
 }
 
 export class _BASIC {
@@ -33,4 +34,5 @@ export class _PRACTICal {
   static SVG: string = "svg";
   static Modal: string = "modal";
   static TRANSITION: string = "transition";
+  static TODO: string = "todo";
 }

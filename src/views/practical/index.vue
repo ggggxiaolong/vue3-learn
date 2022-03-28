@@ -12,6 +12,7 @@ import { PATH } from "../../router/path";
     <RouterLink :to="PATH.PRACTICAL_SVG">SVG图像</RouterLink>
     <RouterLink :to="PATH.PRACTICAL_MODAL">带过渡动效的模态框</RouterLink>
     <RouterLink :to="PATH.PRACTICAL_TRANSITION">带过渡动效的列表</RouterLink>
+    <RouterLink :to="PATH.PRACTICAL_TODO">Todos</RouterLink>
   </nav>
   <RouterView></RouterView>
 </template>
